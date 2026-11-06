@@ -1,0 +1,28 @@
+# BUC AI Attendance — Unified Project Dependencies
+# Local Standalone Deployment (FastAPI + Streamlit + InsightFace + SQLite)
+
+# Backend Core & API
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic-settings>=2.2.1
+python-multipart>=0.0.9
+httpx>=0.27.0
+
+# Database & Security
+sqlalchemy>=2.0.28
+pyjwt>=2.8.0
+pwdlib[argon2]>=0.2.0
+
+# Computer Vision & Biometrics
+insightface>=0.7.3
+onnxruntime>=1.17.0
+opencv-python>=4.9.0
+numpy>=1.26.0,<2.0.0
+
+# Frontend & Visualization
+streamlit>=1.32.0
+requests>=2.31.0
+pandas>=2.2.0
+
+# Testing & Quality
+pytest>=8.0.0
